@@ -19,3 +19,5 @@ def get_tokens(text: str):
 def get_tokenized_text(text: str):
     result = enc.encode(text)
     return enc.decode(result)
+
+# 코드 참고: https://pkgpl.org/2023/09/14/openai-tiktoken%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%86%A0%ED%81%B0-%EC%88%98-%EA%B3%84%EC%82%B0%ED%95%98%EA%B8%B0/

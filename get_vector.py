@@ -14,3 +14,5 @@ def get_embedding(text: str):
         encoding_format="float"  # float 또는 base64
     )
     return result
+
+# 코드 참고: https://platform.openai.com/docs/api-reference/embeddings
