@@ -1,5 +1,5 @@
 from openai import OpenAI
-from config import OpenAI_Settings
+from dotenv.config import OpenAI_Settings
 
 client = OpenAI(
     api_key=OpenAI_Settings.openai_api_key

@@ -1,8 +1,5 @@
 # practice-openai
-Repository for practicing and testing OpenAI models
-
-- 24년 3월 22일
-
+Repository for practicing and testing python libraries and 3rd party APIs
 
 ### 토큰 개수 세는 법
 - 전체적인 설명: https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken

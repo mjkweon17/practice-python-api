@@ -1,6 +1,6 @@
 from pinecone import Pinecone, ServerlessSpec
 
-from config import PINECONE_Settings
+from dotenv.config import PINECONE_Settings
 
 api_key = PINECONE_Settings.pinecone_api_key
 pc = Pinecone(api_key=api_key)
