@@ -13,3 +13,20 @@
 
     OAuth 리디렉션 URL
     ID 공급업체
+
+
+### 레퍼런스
+- GitHub - Firebase Admin Python SDK: https://github.com/firebase/firebase-admin-python
+- Set Up Guide: https://firebase.google.com/docs/admin/setup?hl=ko
+- API reference: https://firebase.google.com/docs/reference/admin/python/
+
+
+### 순서
+
+- pip install firebase-admin
+    - 참고: https://github.com/firebase/firebase-admin-python
+- 내가 Firebase Admin SDK 사용해서 수행할 작업
+    - 참고: https://firebase.google.com/docs/admin/setup?hl=ko
+    - 커스텀 인증 구현
+    - Firebase 인증 사용자 관리
+
